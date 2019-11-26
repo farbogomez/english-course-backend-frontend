@@ -1,0 +1,191 @@
+@import "helloworld.css";
+
+.box {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../Freedom.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: rgb(88, 88, 88) 2px 2px 15px;
+}
+
+.box #h1 h1 {
+  color: white;
+  padding-top: 180px;
+  padding-left: 100px;
+  font: 4em "verdana";
+}
+
+.box #h1 p {
+  color: white;
+  padding-top: 23px;
+  padding-left: 100px;
+  font: 15px "verdana";
+}
+
+.box #btn {
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+#navBar.theme--light.v-sheet {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.397);
+  box-shadow: none;
+  z-index: 10;
+}
+
+#title {
+  width: 500px;
+  background-color: rgb(37, 154, 201);
+  margin-top: 80px;
+  border: 7px solid rgb(64, 190, 240);
+  border-radius: 30px 30px;
+}
+
+#title h1 {
+  color: white;
+  font: 3em "verdana";
+  text-align: center;
+}
+
+/* REGISTER */
+
+.modal {
+  position: fixed;
+  z-index: 10;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  padding-left: 470px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.registro {
+  width: 500px;
+}
+
+.registrarse {
+  width: 500px;
+  position: relative;
+  left: -6%;
+  top: 0%;
+  transform: scale(1);
+  animation: transform 0.4s ease-out;
+}
+
+@keyframes transform {
+  from {
+    transfrom: scale(0);
+  }
+  to {
+    transfrom: scale(1);
+  }
+}
+
+#barRegistro {
+  background-color: #1e88e5;
+  width: 500px;
+  height: 70px;
+}
+
+#barRegistro h1 {
+  color: white;
+  padding-left: 135px;
+  padding-top: 3px;
+  font-size: 30px;
+}
+
+#barregistro .close {
+  margin-left: 100px;
+}
+
+#formRegistro {
+  border: 1px solid #c4c4c4;
+  background: rgba(255, 255, 255);
+  border-radius: 0px 0px 5px 5px;
+}
+
+#formRegistro #nombre,
+#last,
+#user,
+#password2 {
+  width: 82%;
+  margin-left: 42px;
+}
+
+#nombre {
+  margin-top: 25px;
+}
+
+#registrar {
+  background-color: #1e88e5;
+  width: 260px;
+  margin-left: 120px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.close {
+  color: #ffffff;
+  float: right;
+  position: relative;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 120px;
+  z-index: 10;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal2 {
+  position: fixed;
+  z-index: 10;
+  padding-top: 170px;
+  left: 0;
+  top: 0;
+  padding-left: 490px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.login {
+  width: 430px;
+  position: relative;
+  left: -6%;
+  top: 0%;
+  transform: scale(1);
+  animation: transform 0.4s esea-out;
+}
+
+.close2 {
+  color: #ffffff;
+  margin-left: 320px;
+  position: relative;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 8px;
+  z-index: 10;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
